@@ -1,0 +1,550 @@
+
+
+:root
+{ 
+--black: #555;
+--lighting-color: black;
+--box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+
+*
+{
+	font-family: 'Roboto',sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border:  none;
+	outline: none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+}
+html
+{
+ font-size: 62.5%;
+ overflow: scroll;
+ overflow-x: hidden; 
+ scroll-behavior: smooth;
+
+
+}
+
+/*navbar style start*/
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: var(--black);
+	padding: 1rem 7%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: var(--box-shadow: );
+	color: yellow;
+
+}
+
+header .logo img
+{
+	height: auto;
+}
+header .navbar a
+{
+	font-size: 2.1rem;
+	padding: .5rem 2.1rem;
+	color: var(--light-color);
+	border: .1rem solid transparent;
+
+}
+header .navbar  a.active,
+header .navbar a:hover
+{
+	color: gold;
+	border: .1rem solid rgba(205,170,130,0,4);
+}
+header .icons i
+{
+	cursor: pointer;
+	margin-left: .6rem;
+	height: 4.5rem;
+	width: 4.5rem;
+	line-height: 5.0rem;
+	background: var(--light-color);
+
+
+}
+
+
+
+
+
+.Home .Home-slider .slide1
+
+{
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	justify-content: flex-start;
+    color: whitesmoke;
+	background-image: url('high-angle-shot-lens-headphones-gimbal-phone.jpg');
+	 background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 
+	
+		}	
+.Home .Home-slider .slide1 .content
+{
+	text-align: center;
+	padding: 15rem;
+	font-size: 16pt
+}
+.Home .Home-slider .slide1 .content p
+{
+	color: lightyellow;
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+	padding: .5rem 0;
+	line-height: 1.5;
+	font-weight: 100
+
+
+}
+.btn
+{
+	display: inline-block;
+	font-size: 2.8rem;
+	color: yellow;
+	border: .1rem solid rgb(206, 170, 125,0.3);
+	background: transparent;
+	cursor: pointer;
+	padding: .8rem 3rem;
+}
+
+
+
+/*welcome style start*/
+section
+{
+	padding: 2rem 2%;
+	background: black
+
+}
+.heading
+{
+	text-align: center;
+	justify-items: center;
+	justify-content: center;
+	color: whitesmoke;
+	font-size: 2.5rem;
+	padding: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+
+
+}
+.sub-heading
+{
+	text-align: center;
+	color: yellow;
+	font-size: 3.2rem;
+	padding: .3rem 2rem;
+	font-weight: 300;
+	margin-bottom: 4rem;
+	background: var(--yellow);
+	display: inline-block
+}
+.welcome .box-container
+{
+	display: flex;
+	gap: 1.5rem;
+	background-size: cover;
+
+
+
+}
+.welcome .box-container .box
+{
+	width: 33%;
+	background: var(--black);
+	box-shadow: var(--red);
+	text-align: center;
+	padding-bottom: 1%;
+	background-size: cover;
+    font-size: 2.3rem;
+    
+}
+.welcome .box-container .box .image
+{
+	height: 25rem;
+	width: 100%;
+	overflow: hidden;
+
+	 position:relative;
+ 
+	background-size: cover;
+	display:flex;
+
+}
+
+.welcome .box-container .box .image:hover 
+{
+	transform: scale(1.1);
+}
+
+.welcome .box-container .box .content
+{
+	padding: 2rem;
+	padding-top: 2rem
+}
+
+.welcome .box-container .box .content h3
+{
+	color: whitesmoke;
+	font-size: 3.2rem;
+	font-weight: 300
+}
+.welcome .box-container .box .content p
+{
+	color: bisque;
+	padding: 2rem 0;
+	font-size: 1.2;
+	line-height: 1.2
+}
+    
+     
+
+
+/*welcome style end*/
+
+/*menu start*/
+
+.our-Frames
+{
+	background: url("pexels-abhishek-saini-2929411.jpg") left top no-repeat;
+	position: relative;
+	background-size: cover;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 2.5rem;
+
+}
+
+.our-Frames .Frames-container
+{
+	padding: 3rem 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(50rem, 2fr) );
+	gap: 5rem 10rem;
+}
+
+
+.our-Frames .Frames-container .items .item-name
+{
+	display: flex;
+	justify-content: space-between;
+	padding: 4rem,0;
+	margin-top: .5rem
+}
+
+
+.our-Frames .Frames-container .items .Frames-item
+{
+	padding: : .6rem 0;
+
+}
+
+.our-Frames .Frames-container .items .item-name h2
+{
+	font-size: 4rem;
+	color: whitesmoke;
+	font-weight: 300;
+	text-decoration: underline
+	
+}
+
+.our-Frames .Frames-container .items .item-Frames h3
+{
+	font-size: 2rem;
+	color: yellow;
+	display: inline-block
+}
+
+
+
+.our-Frames .Frames-container .items .item-Frames ul
+{
+	
+	font-size: 1.5rem;
+	list-style: none;
+	padding: .8rem 0;
+	color: red;
+	font-weight: 200
+
+}
+ .our-Frames .Frames-container .items .item-Frames ul li a
+ {
+ 	color:white;
+ 	font-weight: 300;
+ 	font-size: 2.4rem
+ }
+
+
+/*menu ends*/
+/*chef starts*/
+
+
+
+
+/*chef ends*/
+/*reserve start*/
+.Booking
+{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap
+}
+.Booking .image
+{
+	width: 55%;
+	background: url('pexels-loc-dang-2505031.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+.Booking .form
+{
+	background: #181818;
+	width: 45%;
+	padding: 9rem 7%
+}
+.Booking .form h1
+{
+	color: whitesmoke;
+}
+.Booking .form-holder
+{
+	display: flex;
+	grid-gap: 3rem;
+	width: 100%
+}
+.Booking .form form input,
+.Booking .form form select
+{
+	display: block;
+	margin: 2rem 0;
+	width: 100%;
+	background: none;
+	border-bottom: .1rem solid #b7b3b3;
+	color: yellow;
+	 font-size: 1.9rem;
+	 font-weight: 300
+}
+
+
+.Contact
+{
+	background: url('top-view-work-desk-with-drawing-pad-glasses-with-copy-space.jpg');
+	background-size: cover;
+	position: relative;
+	object-fit: fill;
+	padding: 13srem
+}
+.Contact p
+{
+text-align: center;
+font-weight: 500;
+color: whitesmoke;
+font-size: 4rem
+}
+
+.Contact h3 
+{
+	text-align: center;
+	font-weight: 500;
+	color: yellow;
+	font-size: 2rem
+
+}
+.Contact  ul li
+
+{
+ text-align: center;
+ color: white;
+ font-size: 1rem
+}
+.Contact li
+{
+	text-align: center;
+	color: white-space;
+	font-weight: 500
+}
+
+.Contact  .icon-container {
+    text-align:center;
+  }
+
+
+.Contact .icon-container p{
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:white;
+  opacity:0.75;
+}
+
+.Contact .footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+
+.Contact .footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+/*media query*/
+@media (max-width: 991px)
+{
+	html
+	{
+		font-size: 60%
+	}
+	header
+	{
+		padding: 1rem 2rem;
+
+	}
+	heading .logo img
+	{
+		height: 7rem;
+
+	}
+}
+@media (max-width: 780px)
+{
+	 header .logo img
+	 {
+	 	height: 7rem;
+
+	 }
+	 header ,icons #menu
+	 {
+	 	display: inline-block;
+
+	 }
+	 header .navbar
+	 {
+	 	position: absolute;
+	 	top: 100%;
+	 	left: 0;
+	 	right: 0;
+	 	background: #eee;
+	 	border-top: .1rem solid rgba(207,170,124,0.2);
+	 	border-bottom: .1rem solid rgba(207,170,124,0.2);
+	 	padding: 1rem;
+	 	clip-path: polygon(0 0,100% 0,100% 0,0 0)
+
+}
+header .navbar.active
+{
+	clip-path: polygon(0 0,100% 0,100% ,0 100%)
+
+}
+header .navbar a
+{
+	display: block;
+	padding: 1.5rem;
+	margin: 1rem;
+	font-size: 3rem;
+	background: var(--black)
+}
+
+.Home .Home-slider .slide
+{
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	justify-content: flex-start;
+}
+
+
+.Home .Home-slider .slide1
+{
+	justify-content: center;
+	height: 80vh
+}
+
+
+
+.Home .Home-slider .slide1 .content
+{
+	padding: 0
+}
+
+
+.Home .Home-slider .slide1 .content h1
+{
+	font-size: 7rem
+}
+
+
+
+
+
+.zoom-img .img-card {
+  position: absolute;
+  overflow: hidden;
+}
+.img-card img {
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+}
+.card:hover .zoom-img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+/*wecome sectiom*/
+.welcome .box-container
+{
+	flex-wrap: wrap;
+
+
+}
+.welcome .box-container .box
+{
+	width: 100%;
+}
