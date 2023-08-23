@@ -291,14 +291,8 @@ section
  }
 
 
-/*menu ends*/
-/*chef starts*/
 
 
-
-
-/*chef ends*/
-/*reserve start*/
 .Booking
 {
 	display: flex;
@@ -548,3 +542,32 @@ header .navbar a
 {
 	width: 100%;
 }
+@media (max-width: 991px)
+{
+	html
+	{
+		font-size: 60%
+	}
+	header
+	{
+		padding: 1rem 2rem;
+
+	}
+	heading .logo img
+	{
+		height: 7rem;
+
+	}
+}
+@media (max-width: 780px)
+{
+	 header .logo img
+	 {
+	 	height: 7rem;
+
+	 }
+	 header ,icons #menu
+	 {
+	 	display: inline-block;
+
+	 }
